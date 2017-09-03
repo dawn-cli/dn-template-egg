@@ -1,0 +1,18 @@
+init:
+  - name: pkginfo
+
+dev:
+  - name: shell
+    script:
+      - npm run dev
+
+build:
+  - name: shell
+    script:
+      - dn dev
+
+test:
+  - name: lint
+  - name: shell
+    script:
+      - npm run test
