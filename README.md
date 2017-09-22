@@ -1,33 +1,38 @@
-# showcase
+# dn-template-egg
 
+这是一个 Egg.js 项目模板。
 
+## 使用
 
-## QuickStart
+使用这个模板需要先安装好 Dawn [https://github.com/alibaba/dawn](https://github.com/alibaba/dawn)
 
-<!-- add docs here for user -->
-
-see [egg docs][egg] for more detail.
-
-### Development
-
-```bash
-$ npm i
-$ npm run dev
-$ open http://localhost:7001/news
+### 初始化
+```sh
+mkdir demo
+cd demo
+dn init -t egg
 ```
 
-### Deploy
+通过如上命令便可以完成项目的初始化
 
-```bash
-$ npm start
-$ npm stop
+### 测试
+```sh
+dn test
 ```
 
-### npm scripts
+### 开发
+```sh
+dn dev
+```
 
-- Use `npm run lint` to check code style.
-- Use `npm test` to run unit test.
-- Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
+### 运行
+```sh
+dn start
+```
 
+### 发布
+```
+dn publish
+```
 
-[egg]: https://eggjs.org
+默认的发布配置是「发布到 npm」，请根据需要更改 `.dawn/pipe.yml` 进行 `publish` 配置

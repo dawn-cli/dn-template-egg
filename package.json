@@ -1,10 +1,11 @@
 {
   "name": "dn-template-egg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "dependencies": {
     "egg": "^1.7.0",
-    "egg-scripts": "^1.1.1"
+    "egg-scripts": "^1.1.1",
+    "egg-view-ejs": "^1.1.0"
   },
   "devDependencies": {
     "autod": "^2.9.0",

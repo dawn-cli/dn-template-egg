@@ -3,10 +3,12 @@
 module.exports = appInfo => {
   const config = {};
 
-  // should change to your own
   config.keys = appInfo.name + '_1504417720833_5934';
-
-  // add your config here
+  config.view = {
+    mapping: {
+      '.ejs': 'ejs',
+    },
+  }
 
   return config;
 };
