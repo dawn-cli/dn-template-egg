@@ -6,13 +6,18 @@ dev:
     script:
       - npm run dev
 
-build:
+start:
   - name: shell
     script:
-      - dn dev
+      - npm start
 
 test:
   - name: lint
   - name: shell
     script:
       - npm run test
+
+publish:
+  - name: shell
+    script:
+      - npm pu
